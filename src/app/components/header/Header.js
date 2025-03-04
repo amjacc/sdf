@@ -1,11 +1,8 @@
 import React from 'react';
+import './header.css';
 
 const Header = props => {
-  return (
-    <div style={{ backgroundColor: 'purple', color: 'white' }}>
-      <h1>Secure Data Foundation</h1>
-    </div>
-  );
+  return <div className="header">Secure Data Foundation</div>;
 };
 
 export default Header;

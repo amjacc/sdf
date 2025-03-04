@@ -1,0 +1,33 @@
+.container {
+  background-color: #f3e4fc;
+  /* opacity: 5%; */
+  width: 20%;
+  height: 100vh;
+}
+
+.sidenav {
+  padding-top: 20px;
+}
+
+.sidenav-options {
+  border-radius: 10px;
+  margin: 20px 10px;
+  padding: 5px;
+}
+
+.sidenav-options:hover {
+  background-color: #b943fd;
+  cursor: pointer;
+  .sidenav-label {
+    color: white;
+  }
+}
+
+.sidenav-label {
+  color: #a100ff;
+  font-weight: 700;
+}
+
+.icon-color {
+  color: #a100ff;
+}
