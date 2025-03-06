@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -7,12 +7,14 @@ import './header.css';
 import logo from '../../assets/logo.svg'
 
 const Header = props => {
+  const { handleDisplaySidenav } = props;
+
   return (
     <>
       <div className="header-container">
         <div className="header">
           <div className="hamburger-menu">
-            <IconButton>
+            <IconButton onClick={handleDisplaySidenav}>
               <MenuIcon />
             </IconButton>
           </div>
