@@ -2,8 +2,8 @@ import React from 'react';
 import './login.css';
 import { Link } from 'react-router-dom';
 import { Button, TextField } from '@mui/material';
-import logo from '../components/assets/accenture-logo.svg'
-import dataImg from '../components/assets/data.svg'
+import logo from '../assets/accenture-logo.svg'
+import dataImg from '../assets/data.svg'
 import { useNavigate } from 'react-router-dom';
 
 const Login = props => {
@@ -12,14 +12,6 @@ const Login = props => {
     navigate('/home');
   };
   return (
-    // <center>
-    //   <h1>Login</h1>
-    //   <Link to="/home">
-    //     <Button color="primary" variant="contained">
-    //       Login
-    //     </Button>
-    //   </Link>
-    // </center>
     <div className='container-login'>
       <div className='left'>
         <div className='company-logo'>
