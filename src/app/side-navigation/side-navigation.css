@@ -1,33 +1,32 @@
 .container {
-  background-color: #f3e4fc;
-  /* opacity: 5%; */
   width: 20%;
   height: 100vh;
+  background-color: #f2f2f24d;
 }
 
 .sidenav {
-  padding-top: 20px;
 }
 
 .sidenav-options {
-  border-radius: 10px;
-  margin: 20px 10px;
-  padding: 5px;
+  display: flex;
+  margin: 10px;
 }
 
 .sidenav-options:hover {
-  background-color: #b943fd;
+  background-color: #f3e4fc;
   cursor: pointer;
-  .sidenav-label {
-    color: white;
-  }
 }
 
 .sidenav-label {
-  color: #a100ff;
-  font-weight: 700;
+  color: #000000;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .icon-color {
   color: #a100ff;
+}
+
+.close-icon {
+  margin-left: 208px;
 }
