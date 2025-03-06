@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { CONST } from '../../../app/constants/Const';
 import './header.css';
+import logo from '../../assets/logo.svg'
 
 const Header = props => {
   const { handleDisplaySidenav } = props;
@@ -18,7 +19,7 @@ const Header = props => {
             </IconButton>
           </div>
           <div className="accenture-logo">
-            <img src="" width="30" height="30" />
+            <img src={logo} width="30" height="30" />
           </div>
           <div className="vertical"></div>
           <div className="header-title">{CONST.HEADER.SECURE_DATA_FOUNDATION}</div>
